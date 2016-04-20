@@ -1,0 +1,33 @@
+{
+  "name": "leyes",
+  "version": "1.0.0",
+  "description": "Códigos y leyes de Guatemala",
+  "main": "./src/main.js",
+  "scripts": {
+    "tsc": "./node_modules/.bin/tsc -p ./src/",
+    "prepublish": "./node_modules/.bin/typings install",
+    "prestart": "./node_modules/.bin/tsc -p ./src/",
+    "start": "./node_modules/.bin/electron ./src/main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codegardenerdotnet/leyes.git"
+  },
+  "keywords": [
+    "leyes",
+    "guatemala",
+    "codigos"
+  ],
+  "author": "Miguel Román <miguelerm@gmail.com> (http://miguelerm.github.io)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/codegardenerdotnet/leyes/issues"
+  },
+  "homepage": "https://github.com/codegardenerdotnet/leyes#readme",
+  "devDependencies": {
+    "electron-prebuilt": "^0.37.6",
+    "typescript": "^1.8.10",
+    "typings": "^0.8.1"
+  }
+}
